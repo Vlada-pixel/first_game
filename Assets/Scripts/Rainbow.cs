@@ -19,7 +19,7 @@ public class Rainbow : MonoBehaviour
             if (_hue > 1f) _hue = 0f;
 
             Color newColor = Color.HSVToRGB(_hue, 1f, 1f);
-            _myRenderer.sharedMaterial.color = newColor;
+            _myRenderer.material.color = newColor;
 
             yield return null;
         }
