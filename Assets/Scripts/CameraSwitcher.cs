@@ -7,7 +7,6 @@ public class CameraSwitcher : MonoBehaviour
 
     private void Start()
     {
-        // Активуємо першу камеру за замовчуванням
         ActivateCamera(0);
     }
 
